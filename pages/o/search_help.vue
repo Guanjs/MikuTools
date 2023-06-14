@@ -15,7 +15,7 @@
         </div>
         <div class="footer">
             <span>帮你百度 - BY</span>
-            <a :href="$store.state.env.url" target="_blank" rel="noopener noreferrer">MikuTools</a>
+            <a :href="$store.state.env.url" target="_blank" rel="noopener noreferrer">MiqiTools</a>
         </div>
     </div>
 </template>

@@ -23,7 +23,7 @@
             <nya-input
                 v-model.trim="options.text"
                 label="请输入水印文字"
-                placeholder="Hello MikuTools"
+                placeholder="Hello MiqiTools"
                 autocomplete="off"
                 autofocus
                 fullwidth

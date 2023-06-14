@@ -3,7 +3,7 @@
         <header>
             <h1 class="title">
                 <nuxt-link to="/">
-                    MikuTools - 工具集合
+                    MiqiTools - 工具集合
                 </nuxt-link>
             </h1>
             <Panel />

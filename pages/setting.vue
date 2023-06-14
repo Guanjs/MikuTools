@@ -7,7 +7,7 @@
         </nya-container>
 
         <nya-container title="自定义 JS">
-            <nya-input :value="$store.state.setting.js" fullwidth rows="5" type="textarea" autocomplete="off" placeholder="alert('欢迎使用 MikuTools')" @change="handleChange('setting.js', $event.target.value)" />
+            <nya-input :value="$store.state.setting.js" fullwidth rows="5" type="textarea" autocomplete="off" placeholder="alert('欢迎使用 MiqiTools')" @change="handleChange('setting.js', $event.target.value)" />
         </nya-container>
 
         <nya-container title="其他设置">

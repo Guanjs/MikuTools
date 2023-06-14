@@ -12,7 +12,7 @@
             </svg>
         </a>
         
-        <a title="GitHub" href="https://github.com/Ice-Hazymoon/MikuTools" target="_blank" rel="noopener noreferrer">
+        <a title="GitHub" href="https://github.com/Ice-Hazymoon/MiqiTools" target="_blank" rel="noopener noreferrer">
             <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-github" />
             </svg>

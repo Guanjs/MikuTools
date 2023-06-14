@@ -5,7 +5,7 @@
                 <nya-input
                     v-model.trim="options.word"
                     label="输入要生成的文字"
-                    placeholder="Hello MikuTools"
+                    placeholder="Hello MiqiTools"
                     autocomplete="off"
                     autofocus
                     @keyup.enter="updatePreview"
@@ -81,7 +81,7 @@ export default {
             loading: false,
             colors: '#000',
             options: {
-                word: 'Hello MikuTools',
+                word: 'Hello MiqiTools',
                 gif: false,
                 divider: false,
                 color: 'white',

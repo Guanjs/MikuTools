@@ -574,7 +574,7 @@ export const state = () => {
             }
             if (tool.head.keywords) {
                 tool.head.keywords = tool.head.keywords.concat([
-                    'MikuTools',
+                    'MiqiTools',
                     'Ice-Hazymoon',
                     '在线工具'
                 ]);

@@ -18,13 +18,17 @@ module.exports = {
         //           }
         //         : undefined
     },
+    server: {
+        port: 80,
+        host: '0.0.0.0',
+    },
     serverMiddleware: ['~/server-middleware/headers'],
 
     /*
      ** Headers of the page
      */
     head: {
-        title: `MikuTools - 一个轻量的工具集合`,
+        title: `MiqiTools - 一个轻量的工具集合`,
         meta: [
             {
                 charset: 'utf-8'
@@ -56,7 +60,7 @@ module.exports = {
             },
             {
                 property: 'og:site_name',
-                content: 'MikuTools'
+                content: 'MiqiTools'
             },
             {
                 name: 'mobile-web-app-capable',
@@ -64,7 +68,7 @@ module.exports = {
             },
             {
                 name: 'apple-mobile-web-app-title',
-                content: 'MikuTools'
+                content: 'MiqiTools'
             },
             {
                 name: 'apple-mobile-web-app-status-bar-style',
@@ -213,8 +217,8 @@ module.exports = {
     manifest: {
         description: '收集实用的小工具',
         display: 'standalone',
-        name: 'MikuTools',
-        short_name: 'MikuTools',
+        name: 'MiqiTools',
+        short_name: 'MiqiTools',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
