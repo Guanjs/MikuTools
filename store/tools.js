@@ -135,20 +135,20 @@ export const state = () => {
                         description: '在线图片选择'
                     }
                 },
-                {
-                    name: '收款码合并',
-                    path: '/universal_pay',
-                    head: {
-                        keywords: [
-                            '免费收款码合并',
-                            '免费三码合一',
-                            '支付宝收款码合并',
-                            '微信收款码合并',
-                            'QQ收款码合并'
-                        ],
-                        description: '在线免费收款码合并'
-                    }
-                },
+                // {
+                //     name: '收款码合并',
+                //     path: '/universal_pay',
+                //     head: {
+                //         keywords: [
+                //             '免费收款码合并',
+                //             '免费三码合一',
+                //             '支付宝收款码合并',
+                //             '微信收款码合并',
+                //             'QQ收款码合并'
+                //         ],
+                //         description: '在线免费收款码合并'
+                //     }
+                // },
                 {
                     name: '温度单位转换',
                     path: '/temperature_conversion',
@@ -287,14 +287,14 @@ export const state = () => {
                         description: '在线抖音风格文字生成'
                     }
                 },
-                {
-                    name: '图片编辑',
-                    path: '/image_editor',
-                    head: {
-                        keywords: ['图片编辑器', '图片处理', '表情包制作'],
-                        description: '在线图片编辑器'
-                    }
-                },
+                // {
+                //     name: '图片编辑',
+                //     path: '/image_editor',
+                //     head: {
+                //         keywords: ['图片编辑器', '图片处理', '表情包制作'],
+                //         description: '在线图片编辑器'
+                //     }
+                // },
                 {
                     name: '身份证加水印',
                     path: '/watermark',
@@ -549,10 +549,10 @@ export const state = () => {
                     name: '工具隐藏',
                     path: '/hide_tool'
                 },
-                {
-                    name: '友情链接',
-                    path: '/links'
-                }
+                // {
+                //     name: '友情链接',
+                //     path: '/links'
+                // }
             ]
         }
     ];
